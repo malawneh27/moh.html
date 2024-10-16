@@ -1,0 +1,110 @@
+@media screen and (max-width: 1400px) {
+    #desk-nav {
+        display: none;
+    }
+    #ham-nav {
+        display: flex;
+    }
+    #profile .btn-container {
+        display: none;
+    }
+    .btn-container2 {
+        display: flex;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+        background-color: #f0f0f0; /* لون فاتح للخلفية */
+    }
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        background: linear-gradient(to bottom left, #8d6e63, #3e2723); /* درجات البني لتناسب اللون الداكن */
+    }
+
+    #experience, .experience-details-contaiiner {
+        margin-top: 2rem;
+    }
+    #profile, .section-container {
+        display: block;
+    }
+    .arrow {
+        display: none;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-container {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact, footer {
+        height: 40vh;
+        background-color: #4e342e; /* لون داكن للخلفية */
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom: 2rem;
+        background-color: #d7ccc8; /* لون فاتح لخلفية الـ profile */
+    }
+
+    article {
+        font-size: 1rem;
+        color: #333333; /* لون داكن للنص */
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-container, .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+    .btn {
+        size: 2rem;
+        background-color: #795548; /* لون زر مناسب */
+        color: white; /* لون النص داخل الزر */
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
+        color: #ffffff; /* لون أبيض للنصوص */
+    }
+    .experience-sub-title {
+        font-size: 1.25rem;
+        color: #8d6e63; /* لون للنص */
+    }
+    .logo {
+        font-size: 1.5rem;
+        color: #d7ccc8; /* لون فاتح للوجو */
+    }
+    .section__pic-container {
+        width: 33vh;
+        justify-content: center;
+        height: 30vh;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 1.75rem;
+    }
+    .text-container {
+        text-align: justify;
+    }
+}
